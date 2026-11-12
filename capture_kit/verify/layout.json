@@ -1,0 +1,65 @@
+{
+ "marker_sheet": {
+  "boards": [
+   {
+    "board": "HEAD",
+    "copy": 1,
+    "x_mm": 15.0,
+    "y_mm": 40.0,
+    "w_mm": 51.0,
+    "h_mm": 33.0
+   },
+   {
+    "board": "HEAD",
+    "copy": 2,
+    "x_mm": 77.0,
+    "y_mm": 40.0,
+    "w_mm": 51.0,
+    "h_mm": 33.0
+   },
+   {
+    "board": "HEAD",
+    "copy": 3,
+    "x_mm": 139.0,
+    "y_mm": 40.0,
+    "w_mm": 51.0,
+    "h_mm": 33.0
+   },
+   {
+    "board": "JAW",
+    "copy": 1,
+    "x_mm": 20.0,
+    "y_mm": 93.0,
+    "w_mm": 33.0,
+    "h_mm": 33.0
+   },
+   {
+    "board": "JAW",
+    "copy": 2,
+    "x_mm": 73.0,
+    "y_mm": 93.0,
+    "w_mm": 33.0,
+    "h_mm": 33.0
+   },
+   {
+    "board": "JAW",
+    "copy": 3,
+    "x_mm": 126.0,
+    "y_mm": 93.0,
+    "w_mm": 33.0,
+    "h_mm": 33.0
+   }
+  ],
+  "scale_bar_y_mm": 149.0,
+  "scale_bar_x_mm": 20.0
+ },
+ "charuco_sheet": {
+  "board": {
+   "x_mm": 17.5,
+   "y_mm": 40.0,
+   "w_mm": 175.0,
+   "h_mm": 125.0
+  },
+  "scale_bar_y_mm": 180.0
+ }
+}

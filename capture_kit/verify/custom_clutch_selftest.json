@@ -1,0 +1,16 @@
+{
+ "watertight": true,
+ "bodies": 1,
+ "volume_cm3": 4.661,
+ "mass_g_resin": 5.5,
+ "shell_height_mm": [
+  -0.3,
+  4.5
+ ],
+ "crown_height_to_incisal_mm": 10.67,
+ "relief_mm": 0.1,
+ "thickness_mm": 1.5,
+ "min_dist_to_lower_mm": 0.015,
+ "min_clearance_to_upper_in_MI_mm": 0.877,
+ "output": "capture_kit/verify/custom_clutch_selftest.stl"
+}

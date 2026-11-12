@@ -1,0 +1,14 @@
+# Python 3.13.18 (udviklet og testet på Linux x86_64)
+# Kerne: pipeline/, testdata/, capture_kit/, v2_hudmarkoerer/
+numpy==2.5.3
+scipy==1.18.1
+opencv-contrib-python==5.0.0.93   # installer KUN denne OpenCV-variant (cv2.aruco kræves)
+matplotlib==3.11.2
+trimesh==5.2.0
+manifold3d==3.5.4                 # testdata/synthlib/dentition.py (boolske operationer)
+rtree==1.4.1                      # trimesh nærhedsopslag
+networkx==3.7                     # trimesh
+scikit-image==0.26.0              # capture_kit/make_custom_clutch.py (marching cubes)
+reportlab==5.0.1                  # PDF-ark med markører
+pymupdf==2.1                      # capture_kit/verify_markers.py (rasterisering af PDF)
+pytest==9.1.1

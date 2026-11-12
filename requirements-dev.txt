@@ -1,0 +1,3 @@
+# Kun til de automatiske viewer-tests i viewer/dev/ (kræver også Node 22 og `npm ci` i viewer/dev/)
+pillow==12.3.0
+playwright==1.63.0

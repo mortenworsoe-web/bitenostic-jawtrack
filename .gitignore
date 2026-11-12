@@ -1,0 +1,33 @@
+__pycache__/
+.pytest_cache/
+.venv/
+_out/
+node_modules/
+# Genererede data
+testdata/synth_*/
+testdata/.cache/
+viewer/dev/fixture/
+viewer/dev/out_*
+viewer/dev/index.test.html
+viewer/dev/test_results*.json
+# Patientdata må aldrig i repoet
+patientdata/
+*.mov
+*.MOV
+*.mp4
+*.heic
+*.HEIC
+*.dcm
+
+# Rigtige optagelser og afledte data (work/ indeholder kalibrering, tracking og landmarks fra rigtige personer)
+work/
+pipeline/work/
+*.stl
+!capture_kit/*.stl
+*.ply
+*.obj
+*.jpg
+*.jpeg
+*.zip
+.env
+.DS_Store
